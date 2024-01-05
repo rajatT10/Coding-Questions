@@ -1,0 +1,14 @@
+
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÑçÒñí.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó…±µ
+V
+java:S1128"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶8ÑçÒñí.
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘8¼Ü«òí.
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¼Ü«òí.
+T
+java:S1128"2Remove this unused import 'java.util.Spliterator'.(òÀì¿ùÿÿÿÿ8ÑçÒñí.
+Z
+java:S1128"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8¼Ü«òí.
