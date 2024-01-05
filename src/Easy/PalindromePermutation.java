@@ -2,6 +2,10 @@ package Easy;
 
 import java.util.Arrays;
 
+/**
+Write a program to find if a string can be used for creating permutation of palindrom
+**/
+
 public class PalindromePermutation {
     public static void main(String[] args) {
         String str = "tact coa";
