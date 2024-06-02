@@ -1,6 +1,9 @@
 package Easy;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Employee implements Comparable<Employee>{
 
@@ -32,8 +35,9 @@ public class Employee implements Comparable<Employee>{
         this.salary = salary;
     }
 
-    public int compareTo(Employee obj){
-        return this.id - obj.id;
+    @Override
+    public int compareTo(Employee o) {
+        return Integer.compare(this.age, o.age);
     }
 
     @Override
@@ -61,12 +65,13 @@ class Runner {
     public static void main(String[] args) {
         Employee[] empArr = new Employee[4];
         empArr[0] = new Employee(10, "Mikey", 25, 10000);
-        empArr[1] = new Employee(20, "Arun", 29, 20000);
+        empArr[1] = new Employee(20, "Arun", 35, 20000);
         empArr[2] = new Employee(5, "Lisa", 35, 5000);
-        empArr[3] = new Employee(1, "Pankaj", 32, 50000);
-
+        empArr[3] = new Employee(1, "Pankaj", 25, 50000);
         Arrays.sort(empArr);
-
         Arrays.stream(empArr).forEach(System.out::println);
+
+        Map<Integer, List<Employee>> result = Arrays.stream(empArr).collect(Collectors.groupingBy(Employee::getAge));
+        System.out.println(result);
     }
 }

@@ -1,20 +1,0 @@
-
-f	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó…±µ
-R
-java:S3655"7Call "Optional#isPresent()" before accessing the value.(ÙÏƒ¶øÿÿÿÿ
-k
-java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ
-?
-java:S1659"$Declare "number" on a separate line.(Ã†ä‡ıÿÿÿÿ
-Q
-java:S6212	"/Declare this local variable with "var" instead.(ğÛ²¸øÿÿÿÿ8£‚ÌÙ›/
-L
-java:S6212
-"/Declare this local variable with "var" instead.(ÂÁü8­‚ÌÙ›/
-Q
-java:S6212"/Declare this local variable with "var" instead.(£º¾âüÿÿÿÿ8®‚ÌÙ›/
-n
-java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(ÙÏƒ¶øÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¾ùôŒùÿÿÿÿ

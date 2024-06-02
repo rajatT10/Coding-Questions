@@ -1,17 +1,0 @@
-
-G
-java:S1602",Remove useless curly braces around statement(Ä®öÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(îÙê€úÿÿÿÿ
-J
-java:S1611"/Remove the parentheses around the "i" parameter(ı±™¤øÿÿÿÿ
-G
-java:S1602",Remove useless curly braces around statement(ı±™¤øÿÿÿÿ
-[
-java:S1612"@Replace this lambda with method reference 'System.out::println'.(ı±™¤øÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
-g
-java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntConsumer'(ÄÚö
-N	java:S106"9Replace this use of System.out or System.err by a logger.(«òˆì
-7
-java:S1116!"Remove this empty statement.(ôŸìúÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó…±µ

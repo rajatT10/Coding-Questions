@@ -14,21 +14,9 @@ public class ComparatorExample {
 		list.add(2);
 		list.add(7);
 		list.add(3);
-
-		list.sort(new AscOrder());
-
-		System.out.println("list2 = " + list);
-
 		list.sort((a, b) -> {
-			return a - b;
+			return Integer.compare(a,b);
 		});
-
-	}
-}
-
-class AscOrder implements Comparator<Integer> {
-	@Override
-	public int compare(Integer o1, Integer o2) {
-		return o1 - o2;
+		System.out.println("list2 = " + list);
 	}
 }
